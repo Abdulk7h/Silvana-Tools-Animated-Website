@@ -1,1 +1,258 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color: black;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+#BG{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+#border{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+#txt{
+    line-height: 25px;
+    padding-left: 30px;
+    padding-top: 20px;
+    left: 30px;
+}
+#txt h5{
+    font-weight: 600;
+    color: rgba(15, 15, 15, 0.751);
+}
+#border h3{
+    padding-top: 20px;
+    padding-right: 90px;
+    color: black;
+}
+#txt h4{
+    font-size: 17px;
+}
+#icon i{
+   display: flex;
+   flex-direction: column;
+   padding-right: 20px;
+   padding-top: 20px;
+   font-size: 22px;
+   line-height: 15px;
+   color:rgba(0, 0, 0, 0.695);
+}
 
+#txt2 i{
+    color: rgba(0, 0, 0, 0.459);
+    font-size: 30px;
+    position: absolute;
+    padding-left: 50px;
+    font-size: 20px;
+}
+#txt2{
+    display: flex;
+}
+h1{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    font-size: 265px;
+}
+img{
+    height: 800px;
+    position: absolute;
+    rotate: -10deg;
+    left: 55%;
+    top: 30%;
+    transform: translate(-50% , -50%);
+}
+#buttom{
+    margin-top: 31%;
+    display: flex;
+    justify-content: space-between;
+    padding:0px 20px 20px 20px;
+}
+#jk{
+    padding: 7px 20px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    border: 1px black solid;
+    font-weight: 900;
+}
+#jk:hover{
+   background-color: rgba(0, 0, 0, 0.988);
+   color: white;
+   border: none;
+   font-weight: 500;
+}
+#txt4 button{
+    padding: 7px 15px;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    border: 1px black solid;
+}
+#txt4 button:hover{
+   background-color: rgba(0, 0, 0, 0.988);
+   color: white;
+   border: none;
+   font-weight: 900;
+}
+#txt4 #jk1{
+   rotate: -13deg;
+}
+#txt4 #jk2{
+    rotate: 10deg;
+}
+#kd{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+#kd1 h6{
+    font-size: 13px;
+    font-weight: 500;
+}
+#kd1 h5{
+    font-size: 13px;
+    font-weight: 900;
+}
+#kd2 h5{
+    font-size: 24px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.781);
+}
+#kd4 button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: black;
+    color: white;
+}
+#kd4{
+    display: flex;
+    gap: 3px;
+}
+#kd3{
+    height: 35px;
+    width: 35px;
+    background-color: black;
+    border-radius: 50%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#kd3 i{
+    color: white;
+    font-size: 19px;
+}
+#dt{
+    display: flex;
+    flex-direction: row;
+    margin: 30px 75px;
+}
+.dm{
+    height: 360px;
+    width: 320px;
+    border-radius: 50px;
+    margin: 20px 10px;
+    position: relative;
+}
+.dm1{
+     background-image: url(https://cdn.myportfolio.com/5adcf848-c99d-469b-873a-b763b530cc84/17a0dc18-3b95-49f6-a811-7fd445e0b839_rw_1920.jpg?h=e593079e7b71fad6c1063f22a67328cb);
+     background-size: cover;
+    background-position: center;
+}
+.dmm1{
+    background-image: url(https://cdn.myportfolio.com/5adcf848-c99d-469b-873a-b763b530cc84/44d15685-1b54-46df-bb3f-1ff4748415e6_rw_1920.jpg?h=28e38a9b857301745e8f5c34d295bdd5);
+    background-size: cover;
+   background-position: center;
+}
+.dmm2{
+    background-image: url(./e5189004-9bc4-406b-92aa-35f32aa8b17a_rw_1200-removebg-preview\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+    background-color: #bdb7b2;
+}
+.dmm3{
+    background-image: url(./f3f7dcbe-8c7e-4eb6-ab2a-573438256a7d_rw_1200-removebg-preview\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+    background-color: #c3beb9;
+}
+
+.dm2{
+    display: flex;
+    justify-content: space-between;
+}
+.dm h5{
+    font-size: 18px;
+    padding: 40px 30px;
+    color: white;
+
+}
+.tt{
+    margin: 30px 140px;
+}
+.tt button{
+    padding: 7px 15px;
+    background-color: transparent;
+    color: white;
+    border-radius: 13px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+.tt button:hover{
+   background-color: black;
+   color: white;
+   font-weight: 800;
+   border: none;
+   scale: 1.1;
+}
+.dm .dm3{
+    padding-left: 20px;
+}
+.dm3 h2{
+    color: white;
+    font-weight: 600;
+}
+.dm3 p{
+    font-size: 15px;
+    color: white;
+    font-weight: 700;
+}
+.circle{
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.box{
+    height: 30px;
+    width: 28px;
+    background-color: white;
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box i{
+    font-weight: 900;
+    rotate: -91deg;
+}
